@@ -36,7 +36,7 @@ parser = argparse.ArgumentParser(prog='GetYouTubeComments',
                                  formatter_class=argparse.RawDescriptionHelpFormatter,
                                  description='''
 GetYouTubeComments extracts comments and replies of a YouTube video in a human readable text format. To use it you need 
-to provide a Google Youtube API key and YouTube video id.  
+to provide a Google YouTube API key and YouTube video id.
 '''
 )
 
