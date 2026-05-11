@@ -33,6 +33,15 @@ options:
   --apikey [APIKEY]    Your YouTube API key, default query
   --videoid [VIDEOID]  YouTube video id, default query
 ```
+# Examples
+```
+python GetYouTubeComments.py
+Your YouTube API key: 
+YouTube video id: OoGxMMJkQfQ
+198 comments and 278 replies saved to YouTubeOoGxMMJkQfQ.txt.
 
+python GetYouTubeComments.py --apikey "A.....................................8" --videoid "OoGxMMJkQfQ"
+198 comments and 278 replies saved to YouTubeOoGxMMJkQfQ.txt.
+```
 # Limitations
 Altough the YouTube WebUI shows a hierarchy of replies the [YouTube Data API](https://developers.google.com/youtube/v3) only provides a list of comments and for each comment a flat list of replies. So replies on replies as just shown a replies on the initial comment instead of a nested hierarchy.
