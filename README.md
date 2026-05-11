@@ -21,6 +21,10 @@ pip install --upgrade google-api-python-client
 1. Test the installation by running: `python GetYouTubeComments.py -h`
 
 # Usage
+If you run it from source on Windows your need to eanble UTF8 encoding:
+```
+set PYTHONUTF8=1
+```
 ```
 python GetYouTubeComments.py -h
 usage: GetYouTubeComments [-h] [--apikey [APIKEY]] [--videoid [VIDEOID]]
